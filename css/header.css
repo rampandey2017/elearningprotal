@@ -1,0 +1,50 @@
+/*top header start*/
+.logo > a{
+    display:inline-block;
+    color:white;
+    line-height:50px;
+    font-size: 36px;
+}
+.logo > a:hover{
+    text-decoration:none;
+}
+
+.top_header{
+    background-color:rgb(46, 43, 43);
+    height:50px;
+}
+.left_margin{
+    margin-left:15px;
+}
+.social_media > a{
+    color:lightgrey;
+    line-height:50px;
+    margin-right:15px;
+    font-size:15px;
+    float:right;
+}
+.social_media > a:hover{
+    color:white;
+}
+/*top header end*/
+
+/*middle header start*/
+.middle_header{
+    background-color:#008BDD;
+    height:180px;
+    color:white;
+ }
+.middle_header i{
+    font-size:100px;
+    height:100%;
+    line-height:180px;
+}
+.student_icon{
+    width:30%;
+    background-color:red;
+}
+.student_name{
+    width:90%;
+    background-color:green;
+}
+/*middle header end*/
