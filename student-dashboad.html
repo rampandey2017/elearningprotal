@@ -14,6 +14,7 @@
 
         <!--Fonts-->
         <link href="https://fonts.googleapis.com/css?family=Roboto|Schoolbell" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         
         <!--Stylesheet files-->
         <link href="css/vendor/reset.css" rel="stylesheet">
@@ -21,56 +22,125 @@
         <link href="css/vendor/student-dashboard.css" rel="stylesheet">
     </head>
     <body>
-        <section class="main_wrapper">
-          <div class="container">
-              <div class="row col-md-12">
-                <div class="col-md-6 main_left">
-                  <div class="col-md-12 main_learning">
-                    <div class="col-md-4 learning_path"><h5><b>Learning path</b></h5></div>
-                    <div class="col-md-4 col-md-offset-4 my_learning_path"><a href="#home" target="_blank"><h5>My learning path</h5></a></div>
-                    
-                    <div class="row col-md-12 row_content_cv">
-                        <div class="col-md-3 row_logo1">for icon</div>
-                        <div class="col-md-5 row_content1">for content</div>
-                        <div class="col-md-4 row_cv1"><a href="#home" target="_blank">for cv</a></div>
+       
+      <section class="main_wrapperr"><h2 style="text-align: center;">Learning Path | <a href="#" class="btn stretched-link">My leaning Path</a></h2>
+           <div class="container-fluid">
+               <div class="row col-xs-12 col-md-12 ">
+                   <div class="col-xs-6 col-md-6">
+                       <div class="panel-group">
+                           <div class="panel panel-default">
+                               <div class="panel-heading">WordPress<small> 24 Courses </small></div>
+                                   <div class="panel-body">
+                                      <a href="#" data-toggle="popover" title="WordPress" data-content="Some content inside the popover">
+                                     <img src="assets/images/wordpress_images.png" width="40px" height="40px"> </a>
+                                     
+                                     <script>
+                                        $(document).ready(function(){
+                                            $('[data-toggle="popover"]').popover();   
+                                        });
+                                        </script>
 
-                    </div>
-                    <div class="row col-md-12 row_content_cv">
-                        <div class="col-md-3 row_logo2">for icon</div>
-                        <div class="col-md-5 row_content2">for content</div>
-                        <div class="col-md-4 row_cv2"><a href="#home" target="_blank">for cv</a></div>
+                                     <a href="#home" target="_blank" class="pull-right">Resume</a></div>
+                                      
+                                    </div>
+                                 
+                                 <div class="panel panel-default">
+                                     <div class="panel-heading">Angular<small> 24 Courses </small></div>
+                                         <div class="panel-body">
+                                            <a href="#" data-toggle="popover" title="Angular" data-content="Some content inside the popover">
+                                          <img src="assets/images/angular_images.png"  class="img-rounded"  width="40px" height="40px"></a>
 
-                    </div>
-                    <div class="row col-md-12 row_content_cv">
-                        <div class="col-md-3 row_logo3">for icon</div>
-                        <div class="col-md-5 row_content3">for content</div>
-                        <div class="col-md-4 row_cv3"><a href="#home" target="_blank">for cv</a></div>
+                                          <script>
+                                              $(document).ready(function(){
+                                                  $('[data-toggle="popover"]').popover();   
+                                              });
+                                              </script>
 
+                                          <a href="#home" target="_blank" class="pull-right" >Resume</a></div>
+                                             </div>
+                        
+                                           <div class="panel panel-default">
+                                              <div class="panel-heading">React Native<small> 24 Courses </small></div>
+                                                 <div class="panel-body">
+                                                   <a href="#" data-toggle="popover" title="React Native" data-content="Some content inside the popover">
+                                                   <img src="assets/images/reactnative_images.png" width="40px" height="40px"> </a>
+
+                                                   <script>
+                                                      $(document).ready(function(){
+                                                          $('[data-toggle="popover"]').popover();   
+                                                      });
+                                                      </script>
+
+
+                                                   <a href="#home" target="_blank" class="pull-right">Resume</a></div>
+                                                    </div>
+                                                
+                                            
+                                          
+                      </div>               
                     </div>
-                  </div>
-                </div>
-                <div class="col-md-6 main_right">
-                    <div class="col-md-12 main_learning">
-                        <div class="col-md-4 learning_path"><h5>Courses</h5></div>
-                        <div class="col-md-4 col-md-offset-4 my_learning_path"><a href="#home" target="_blank"><h5>My Courses</h5></a></div>
-                        <div class="row col-md-10 upper_div">
-                            <div class="col-md-4 courses_div1">Image 1</div>
-                            <div class="col-md-4 courses_div2">Image 2</div> 
+                    <div class="col-xs-6 col-md-6">
+                       
+                        <div class="bs-example">
+                          <section class="subsection">Courses<a href="#home" target="_blank" class="pull-right" >My Courses</a></section>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="card-group">
+                                        <div class="card col-xs-4 col-md-4">
+                                            <img src="assets/images/wordpress_images.png" width="100px" height="100px" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Word Press</h5>
+                                                <p class="card-text">Learn WordPress fundamentals</p>
+                                            </div>
+                                            
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#wordpress">Built WordPress</button>
+                                                    <div id="wordpress" class="collapse">
+                                                        Full time course
+                                                    </div>
+                                            </div>
+                                        </div>
+                                        <div class="card col-xs-4 col-md-4">
+                                            <img src="assets/images/angular_images.png" width="100px" height="100px" class="img-rounded" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Angular</h5>
+                                                <p class="card-text">Learn Angular fundamentals</p>
+                                            </div>
+                                            
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#angular">Angular</button>
+                                                <div id="angular" class="collapse">
+                                                    Full time course
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card col-xs-4 col-md-4">
+                                            <img src="assets/images/reactnative_images.png" width="100px" height="100px"  class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">React Native</h5>
+                                                <p class="card-text">Learn React Native fundamentals</p>
+                                            </div>
+                                            
+                                            <div class="card-footer">
+                                                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#react">Built React Native</button>
+                                                    <div id="react" class="collapse">
+                                                        Full time course
+                                                    </div>
+                                            </div>
+                                        </div>
+
+
+                         </div>
                       </div>
-                      <div class="row col-md-10 below_div">
-                          <div class="col-md-4 courses_footer1">
-                              <div class="col-md-6">Learn Language</div>
-                              <div class="col-md-6">Icon</div>
-                          </div>
-                          <div class="col-md-4 courses_footer2">
-                            <div class="col-md-6">Learn Language</div>
-                          <div class="col-md-6">Icon</div>
-                          </div>  
-                      </div>
-                </div>
-              </div>
-          </div> 
-        </div>
-     </section>
+                    </div>
+                 </div>  
+               </div> 
+             </div>
+            </div>  
+             
+       </section>
+       <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
     </body>
+    
 </html>

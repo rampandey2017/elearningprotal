@@ -17,108 +17,84 @@
 /* 1. Global */
 body {
     font-family: 'Roboto', sans-serif;
-    color: white;
+    
     background: white;
     letter-spacing: 1px;
+    width: 100%;
+    overflow-x: hidden;
+}
+.glyphicon {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+p {
+    padding: 0;
+    margin: 0px;
+}
+.row {
+    padding: 0;
+    
 }
 /* Global Ends */
 
 /* 2. Main*/
-.main_wrapper{
-    margin: 10px 0 10px 0;
-}
-.main_left {
-    background: gray;
-    min-height: 280px; 
-    padding-left: 0;
-    padding-right: 0;
+
+.subsection {
+    background: #f5f5f5;
+    padding: 5px;
+    border-radius: 2px;
     
 }
-.learning_path {
-    background: rgb(89, 92, 226);
-    height: 60px; 
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-.my_learning_path {
-    background: rgb(201, 72, 173);
-    height: 60px; 
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-.main_right {
-    background: gray;
-    min-height: 280px; 
-    padding-left: 0;
-    padding-right: 0;
-}
-.upper_div {
-    background: rgb(182, 79, 79);
-    margin: 0px;
-    padding: 0px;
-}
-.below_div {
-    background: rgb(228, 144, 144);
-    margin: 0px;
-    padding: 0px;
-}
-.courses_div1 {
-    background: rgb(187, 184, 32);
-    min-height: 100px; 
-    border-radius: 5px 5px 0 0;
-     margin: 5px 5px 0 0; 
-}
-.courses_div2 {
-    background: rgb(187, 184, 32);
-    min-height: 100px; 
-    border-radius: 5px 5px 0 0;
-     margin: 5px 5px 0 5px;  
-}
 
-.courses_footer1{
-    background: rgb(221, 47, 47);
-    min-height: 20px; 
-    border-radius: 0 0 5px  5px;
-     margin: 0 5px 5px 0; 
-     padding-left: 0;
-     padding-right: 0;
-}
-.courses_footer2{
-    background: rgb(221, 47, 47);
-    min-height: 20px; 
-    border-radius: 0 0 5px  5px;
-    margin: 0 5px 5px 5px; 
-    padding-left: 0;
+.card {
+    width: 200px;
+    height: 200px;
     padding-right: 0;
+    padding-left: 0;
 }
-.row_content_cv {
-    background: brown;
-    margin: 5px 0;
+    
+
+.card-group {
+    background: orange;
+    margin-top: 5px; 
+    padding-left: 5px;
     
 }
-.row {
-    margin-right: none;
-    margin-left: none;
+.bs-example {
+    margin: 20px; 
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 600px;
+    padding: 0 0 10px 0; 
+    height: 255px;;
+          
 }
-.row_logo1 {
-    background: rgb(103, 103, 223);
+.panel-group  {
+    margin: 20px;        
 }
-.row_logo2 {
-    background: rgb(103, 103, 223);
+.btn {
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    
 }
-.row_logo3 {
-    background: rgb(103, 103, 223);
+.panel-heading {
+    padding: 5px 5px;
 }
-.row_content1 {
-    background: rgb(219, 137, 107);
+.panel-body {
+    padding: 5px;
 }
-.row_content2 {
-    background: rgb(219, 137, 107);
+.card-body {
+    
+    width: 150px;
 }
-.row_content3 {
-    background: rgb(219, 137, 107);
-}
-
-
 
 /* Main*/
