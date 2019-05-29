@@ -1,4 +1,8 @@
 /*top header start*/
+.top_header{
+    background-color:rgb(46, 43, 43);
+    height:50px;
+}
 .logo > a{
     display:inline-block;
     color:white;
@@ -7,11 +11,6 @@
 }
 .logo > a:hover{
     text-decoration:none;
-}
-
-.top_header{
-    background-color:rgb(46, 43, 43);
-    height:50px;
 }
 .left_margin{
     margin-left:15px;
@@ -34,17 +33,51 @@
     height:180px;
     color:white;
  }
-.middle_header i{
-    font-size:100px;
-    height:100%;
+.header_student_img{
+    width:16%;
+    position:absolute;
     line-height:180px;
+    margin-top:22px;
 }
-.student_icon{
-    width:30%;
-    background-color:red;
+.header_student_name{
+    width:84%;
+    margin-top:40px;
 }
-.student_name{
-    width:90%;
-    background-color:green;
+.header_student_name i{
+    color:rgb(243, 216, 149);
+}
+.header_student_name span{
+    color:rgb(217, 220, 223);
+}
+
+.btn{
+    margin-top:70px;
+    background-color:transparent;
+    border:2px solid rgb(255, 183, 1);
+    border-radius:5px;
+}
+.btn:hover{
+    background-color:white;
+    color:orange;
+    transition:0.5s;
+    border:1px solid #008BDD;
 }
 /*middle header end*/
+/*bottom header start*/
+.navbar-inverse{
+    background-color:#2AC4F4;
+    border:0px;
+    border-radius:0px;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: white;
+    color:rgb(255, 183, 1);
+}
+.navbar-inverse .navbar-nav>li>a{
+    color:#13293D;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color:white;
+    text-shadow:none;
+}
+/*bottom header end*/
