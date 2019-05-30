@@ -1,7 +1,10 @@
+.foot
+{background-color: #465a6e; margin: 20px;  style: color:white
+}
 .fa {
     padding: 20px;
-    font-size: 30px;
-    width: 30px;
+    font-size: 10px;
+    width: 10px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -31,3 +34,4 @@
     background: #007bb5;
     color: white;
   }
+
