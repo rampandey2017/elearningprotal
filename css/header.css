@@ -1,7 +1,7 @@
 /*top header start*/
 .top_header{
     background-color:rgb(46, 43, 43);
-    height:50px;
+    min-height:50px;
 }
 .top_header > .row{
     margin-left:0px;
@@ -37,15 +37,16 @@
     min-height:180px;
     color:white;
  }
+ .middle_header_inner{
+     display:flex;
+     align-items:center;
+     min-height:180px;
+ }
 .header_student_img{
     width:16%;
-    position:absolute;
-    line-height:180px;
-    margin-top:22px;
 }
 .header_student_name{
-    width:84%;
-    margin-top:40px;
+    width:84%;    
 }
 .header_student_name i{
     color:rgb(243, 216, 149);
